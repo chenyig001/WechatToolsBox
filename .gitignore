@@ -15,7 +15,7 @@ dist/
 
 # 运行时数据（含真实凭据，严禁入库）
 *.jsonl
-*.csv
+#*.csv
 *.log
 *.db
 *.sqlite3
