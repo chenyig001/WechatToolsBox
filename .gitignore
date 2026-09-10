@@ -1,0 +1,34 @@
+# ===== 仅发布可执行文件：源码与运行时数据一律不入库 =====
+
+# 源码
+*.py
+*.pyw
+*.spec
+*.pyc
+__pycache__/
+*.pyd
+
+# 构建产物
+build/
+dist/
+*.manifest
+
+# 运行时数据（含真实凭据，严禁入库）
+*.jsonl
+*.csv
+*.log
+*.db
+*.sqlite3
+*.txt
+cookies*
+captured_events*
+assets/
+
+# 程序运行时会自动释放的附属文件
+mitm_capture_addon.py
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
